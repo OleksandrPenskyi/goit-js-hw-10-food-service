@@ -1,7 +1,7 @@
-import templateList from '../templates/food-list.hbs';
-import menu from '../menu.json';
+import templateList from '../templates/food-list.hbs'; // результат ф-я
+import menu from '../menu.json'; // импортируется уже как обьект, а не текст
 
-// создаем разметку
+// создаем разметку, запуская ф-ю templateList и передавая ей обьект
 const markup = templateList(menu);
 
 // ссылка на UL-галереи
